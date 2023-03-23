@@ -1,4 +1,4 @@
-package tipos_de_variaveis;
+package edu.moi;
 
 public class TiposVariaveis {
 
