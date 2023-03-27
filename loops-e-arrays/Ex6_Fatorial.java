@@ -17,6 +17,7 @@ public class Ex6_Fatorial {
 			fatorial *= (numero - 1);
 			numero -= 1;
 		}
+
 		System.out.println(nDigitado + "!= " + fatorial);
 	}
 }
