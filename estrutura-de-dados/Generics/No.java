@@ -1,23 +1,23 @@
 package edu.dio.no;
 
-public class No {
-	private String conteudo;
-	private No proxNo;
+public class No<T> {
+	private T conteudo;
+	private No<T> proxNo;
 
-	public No(String conteudo) {
+	public No(T conteudo) {
 		this.proxNo = null;
 		this.conteudo = conteudo;
 	}
 
-	public String getConteudo() {
+	public T getConteudo() {
 		return conteudo;
 	}
 
-	public void setConteudo(String conteudo) {
+	public void setConteudo(T conteudo) {
 		this.conteudo = conteudo;
 	}
 
-	public No getProxNo() {
+	public No<T> getProxNo() {
 		return proxNo;
 	}
 
