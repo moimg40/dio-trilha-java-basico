@@ -16,7 +16,7 @@ public class Main {
 		Calculadora.divisao(5, 2.5);
 
 		// Mensagem
-		System.out.println("Exercício Saudação do dia: ");
+		System.out.println("\nExercício Saudação do dia: ");
 		Mensagem.saudacao(14);
 
 		// Cálculo de empréstimo
